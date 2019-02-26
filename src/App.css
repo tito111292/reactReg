@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url('image/back.jpg') no-repeat;
+    transition: 1s ease-out 1s;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Title-main-page */
+
+.header-h1 h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+  /* Editot--form-registration */
+
+.myFavoriteForm{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.myFavoriteForm input{
+    background: transparent;
+    border-bottom: 1px solid white !important;
+    border-radius: 0;
+    color: #949393 !important;
+}
+
+.myFavoriteForm button{
+    margin-top: 30px;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border: none !important;
+  }
+
+
+  input:focus {
+    background: transparent !important;
+    border-bottom: 2px solid white !important;
+    border-radius: 0;
+    outline: none !important;
+    color: #ffffff !important;
+  }
+
+  input:active, input:focus {
+    outline: none !important;
+  }
+
+  :active, :hover, :focus {
+    outline: 0 !important;
+    outline-offset: 0 !important;
+    box-shadow: none !important;
+}
+
+:focus::-webkit-input-placeholder {color: white !important}
+:focus::-moz-placeholder          {color: whitet !important}
+:focus:-moz-placeholder           {color: white !important}
+:focus:-ms-input-placeholder      {color: white !important}
+
+  ::placeholder {
+    color: rgb(187, 187, 187) !important;
+  }
+
+  /* Smooth disappearance of form */
+
+  .hidden-transit{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+  }
